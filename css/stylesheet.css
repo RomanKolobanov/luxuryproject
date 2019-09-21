@@ -47,7 +47,7 @@ a:hover {
 }
 
 .sectionone {
-    background-color: #fff;
+    background-color: #73cbf5;
 }
 
 .sectionone-nav {
@@ -75,8 +75,7 @@ a:hover {
     margin: 5px 20px;
 }
 
-.donate-text {
-    font-weight: 700;
+.underline-text {
     display: inline-block;
     color: #ffeb3b;
     line-height: 1.4;
@@ -85,7 +84,7 @@ a:hover {
     position: relative;
 }
 
-.donate-text:after {
+.underline-text:after {
     background-color: #ffeb3b;
     display: block;
     content: "";
@@ -101,8 +100,8 @@ a:hover {
     transform: translateX(-50%);
 }
 
-.donate-text:hover:after,
-.donate-text:focus:after {
+.underline-text:hover:after,
+.underline-text:focus:after {
     width: 100%;
 }
 
@@ -129,6 +128,7 @@ a:hover {
 
 
 .sectiontwo {
+    background-color: #2cd4c9;
 }
 
 .sectiontwo-inner {
@@ -156,6 +156,7 @@ a:hover {
 /* sectionthree */
 
 .sectionthree {
+    background-color: #2cb2d4;
 }
 
 .sectionthree-number {
@@ -177,5 +178,10 @@ a:hover {
     width: 350px;
 }
 
-.steps-block h2 {
+
+.social-block {
+    width: 100%;
+    height: 45vh;
+
+    background: #f75;
 }
