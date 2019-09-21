@@ -48,6 +48,7 @@ a:hover {
 
 .sectionone {
     background-color: #73cbf5;
+    background: linear-gradient(to top, #08eaf5, #48925f);
 }
 
 .sectionone-nav {
@@ -129,6 +130,7 @@ a:hover {
 
 .sectiontwo {
     background-color: #2cd4c9;
+    background: linear-gradient(to top, #db08f578, #08eaf5);
 }
 
 .sectiontwo-inner {
@@ -157,6 +159,7 @@ a:hover {
 
 .sectionthree {
     background-color: #2cb2d4;
+    background: linear-gradient(to top, #6b409ad9, #db08f578);
 }
 
 .sectionthree-number {
