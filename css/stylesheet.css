@@ -48,7 +48,7 @@ a:hover {
 
 .sectionone {
     background-color: #73cbf5;
-    background: linear-gradient(to top, #08eaf5, #48925f);
+    background: linear-gradient(to top, #08eaf5, #644892);
 }
 
 .sectionone-nav {
@@ -160,6 +160,7 @@ a:hover {
 .sectionthree {
     background-color: #2cb2d4;
     background: linear-gradient(to top, #6b409ad9, #db08f578);
+
 }
 
 .sectionthree-number {
@@ -185,6 +186,5 @@ a:hover {
 .social-block {
     width: 100%;
     height: 45vh;
-
-    background: #f75;
+    background: linear-gradient(to top, #ea6f6fd9, #6b409ad9);
 }
