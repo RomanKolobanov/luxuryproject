@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+
+}
+
 ul, li {
     list-style: none;
     text-decoration: none;
@@ -25,8 +29,14 @@ h1 {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 65px;
+    color: #fff;
 }
+
+h3 {
+    color: #F1EC9D;
+}
+
 
 p, li {
     font-family: 'Open Sans', sans-serif;
@@ -41,6 +51,10 @@ a:hover {
     color: #fff;
 }
 
+.heading-text {
+    padding-left: 50px;
+}
+
 .section {
     width: 100%;
     height: 100vh;
@@ -52,7 +66,10 @@ a:hover {
 }
 
 .sectionone-nav {
+    display: flex;
     height: 5vh;
+    padding-top: 15px;
+    padding-left: 25px;
 }
 
 .navbar {
@@ -60,9 +77,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 
-    position: absolute;
-    top: 15px;
-    left: 65px;
     text-align: center;
 }
 
@@ -130,7 +144,7 @@ a:hover {
 
 .sectiontwo {
     background-color: #2cd4c9;
-    background: linear-gradient(to top, #d1f99c, #08eaf5);
+    background: linear-gradient(to top, #db08f578, #08eaf5);
 }
 
 .sectiontwo-inner {
@@ -158,8 +172,8 @@ a:hover {
 /* sectionthree */
 
 .sectionthree {
-    background-color: #2cb2d4;
-    background: linear-gradient(to top, #64e0e0, #d1f99c);
+    background: linear-gradient(to top, #6b409ad9, #db08f578);
+
 }
 
 .sectionthree-number {
@@ -184,6 +198,23 @@ a:hover {
 
 .social-block {
     width: 100%;
-    height: 45vh;
-    background: linear-gradient(to top, #4dadf1, #64e0e0);
+    height: 80vh;
+    background: linear-gradient(to top, #ea6f6fd9, #6b409ad9);
+}
+
+.sectionfooter {
+    height: 20vh;
+    background-color: #101012;
+    color: #fff !important;
+    line-height: 1.4;
+    padding-left: 10px;
+}
+
+.copyright-item {
+    display: flex;
+}
+
+.copyright-item i {
+    font-style: normal;
+    font-size: 16px;
 }
