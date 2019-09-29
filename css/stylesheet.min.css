@@ -11,17 +11,18 @@ h1, h2, h3, h4, h5 {font-family: 'Montserrat', sans-serif;margin: 0;color: #fff;
 h1 {font-size: 78px;}
 h2 {font-size: 65px;color: #fff;}
 h3 {color: #F1EC9D;}
+h4 {font-size: 45px;}
 p, li {font-family: 'Open Sans', sans-serif;font-size: 25px;color: #fff;}
 a, a:hover {font-family: 'Open Sans', sans-serif;text-decoration: none;cursor: pointer;color: #fff;}
 /*global*/
-.section {width: 100%;height: 100vh;}
+.section {width: 100%;height: 100vh;background: linear-gradient(to top, #0f0c29, #302b63, #24243e);}
 .heading-text {padding-left: 50px;}
 .gold-letter {color: #f1c40f;font-style: normal;}
 /*nav-bar*/
 .section-nav {display: flex;height: 5vh;padding-top: 15px;padding-left: 25px;}
 .navbar {display: flex;justify-content: center;align-items: center;text-align: center;}
 .navbar-list {padding: 10px 10px;}
-.navbar-list a {font-size: 19px;color: #fff;margin: 5px 20px;transition: all .3s ease-out;}
+.navbar-list a {font-size: 19px;color: #fff; margin: 5px 20px; transition: all .3s ease-out;}
 .navbar-list a:hover {font-size: 20px;}
 /*gold-underline*/
 .underline-text {display: inline-block;line-height: 1.4;text-decoration: none;cursor: pointer;position: relative;}
